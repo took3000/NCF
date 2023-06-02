@@ -13820,8 +13820,8 @@ figure.gallery-group:hover .gallery-group-name::after {
   margin: 15px 20px 15px 15px;
   transition: 0.3s;
   background: var(--heo-background);
-  min-width: 60px;
-  min-height: 60px;
+  max-width: 32px;
+  max-height: 32px;
 }
 
 /* 悬浮状态头像 */
@@ -13831,8 +13831,8 @@ figure.gallery-group:hover .gallery-group-name::after {
   height: 0;
   opacity: 0;
   margin: 0.5rem;
-  min-width: 0px;
-  min-height: 0px;
+  max-width: 0px;
+  max-height: 0px;
 }
 
 /* 标题和描述 */
